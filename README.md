@@ -1,13 +1,18 @@
 
 ### 初始化
 
-首先建立空的文件夹，比如 `eui-dialog`，接着依次执行如下命令：
+1. 首先本地新建空文件夹，比如 `eui-dialog`，接着依次执行如下命令：
 
 ```
 $ npm install @mistong/eui-cli -g
 $ eui init
 ```
-> 组件名称都以 `@mistong/eui-` 开头，比如 `@mistong/eui-dialog`，`package.json` 的 `name` 属性默认修改为改格式即可，后续会改为自动模板替换。
+* 在 [MST-EUI 仓库](https://github.com/MST-EUI) 建立对应组件仓库并关联，组件仓库名称和组件名称保持一致，比如：`eui-dialog`。
+
+> 组件 `package.json` 里的 `name` 都以 `@mistong/eui-` 开头，比如 `@mistong/eui-dialog`。
+> `eui-dialog` 这种形式的命名是组件 github 仓库的命名格式，在 github org [MST-EUI](https://github.com/MST-EUI) 下统一管理。
+> `@mistong/eui-dialog` 是组件最终发布到 `npm` 的名称，因为所有组件发布的包都放在 `npm` 的 org [@mistong](https://www.npmjs.com/package/@mistong/eui-cli) 下统一管理。
+
 
 ### 开发
 
