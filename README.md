@@ -52,7 +52,7 @@ $ npm run build
 $ npm publish
 ```
 
-> 第一次发布模块的时候，需要先执行 `npm login` 登录自己的 `npm` 账号，接着执行 `npm publish --access=publish`。
+> 第一次发布模块的时候，需要先执行 `npm login` 登录自己的 `npm` 账号，接着执行 `npm publish --access=publish`。接着前往 [@mistong org](https://www.npmjs.com/settings/mistong/packages)，点击 `Add Package` 将当前包加入 `@mistong org`。
 
 
 ## 编码规范
