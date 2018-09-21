@@ -31,7 +31,7 @@ $ git-cz
 $ npm version patch
 ```
 
-> 使用 [`npm version`](https://docs.npmjs.com/cli/version) 控制版本变更，`npm version patch` 会自动给上个版本打标签并推送到仓库，并自动更新版本号
+> 使用 [`npm version`](https://docs.npmjs.com/cli/version) 控制版本变更
 
 ## 发布
 
